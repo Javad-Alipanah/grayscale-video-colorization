@@ -1,0 +1,151 @@
+{
+  "status": "production-source-inventory-before-port",
+  "upstream": {
+    "repo": "https://github.com/dan64/cmnet2",
+    "commit": "e0d51432d224476769babfbff5e90f531a454939",
+    "tracked_tree_clean": true,
+    "license_observation": "CMNET2 README says it inherits original yyang181/colormnet license. No independent license classification made here; keep upstream code/weights external until parent verifies rights. DINOv3 and SAM2 have separate terms."
+  },
+  "settings": {
+    "model": "CMNET2 DINOv3 p374099",
+    "precision": "float32",
+    "max_side": 512,
+    "top_k": 30,
+    "mem_every": 5,
+    "disable_autotune": true,
+    "proximity_bias": false,
+    "fresh_process_per_shot": true
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "transformers": "4.57.6",
+    "numpy": "2.5.2",
+    "opencv-python": "5.0.0.93",
+    "scikit-image": "0.26.0",
+    "Pillow": "12.3.0",
+    "safetensors": "0.8.0",
+    "huggingface-hub": "0.36.2"
+  },
+  "core_files": [
+    {
+      "path": "work/lecture1-color/engine/production.py",
+      "sha256": "4792fec6543e1b42b2d08b902ff1145506de7a5ddc61ff18ee88537e31232ad0",
+      "bytes": 39864
+    },
+    {
+      "path": "work/lecture1-color/engine/prepare_batch_source.py",
+      "sha256": "a8f6225e157cf03519c8943f67aff343079d5d11a9a44f05fc7939e73b3b981b",
+      "bytes": 1031
+    },
+    {
+      "path": "work/lecture1-color/engine/delivery.py",
+      "sha256": "098aa76dd590d86141a4f9e51c4c030a05ee060a3f693f48b7485140a47f6543",
+      "bytes": 42406
+    },
+    {
+      "path": "work/lecture1-color/engine/scientific_mask.py",
+      "sha256": "12ed949279fb910028ff6198d331e9717b893179ba832cfad9434d6945fb654f",
+      "bytes": 14575
+    },
+    {
+      "path": "work/lecture1-color/engine/boundary_chroma.py",
+      "sha256": "892cc87f04643657c6cdb1e38c820621524d469e0acc06e49019297c2546a11b",
+      "bytes": 17571
+    },
+    {
+      "path": "work/lecture1-color/engine/verify_reuse.py",
+      "sha256": "5cd43e63cdf98c248bccc77e0c24b8c16caf259753f3cdb2654aeefc3ae2c315",
+      "bytes": 4025
+    },
+    {
+      "path": "work/lecture1-color/engine/run_corrections.py",
+      "sha256": "f734b4e3be6ff3e334787c3f716f860bea796db0a2b9fc69e1d95504db26c9b3",
+      "bytes": 7209
+    },
+    {
+      "path": "work/lecture1-color/engine/prepare_dissolve_overlaps.py",
+      "sha256": "c54e1e9216924997d3cf57e81fb69e6a842995eb099017ae85e908197dc91a92",
+      "bytes": 3322
+    },
+    {
+      "path": "work/lecture1-color/engine/run_dissolve_overlaps.py",
+      "sha256": "8ca53ad3763d62c927cacd5497f05d479113446b1edd7812b9e13932611eceeb",
+      "bytes": 3892
+    },
+    {
+      "path": "work/lecture1-color/engine/run_bounded_mask_trial.py",
+      "sha256": "e35da982a12763a3c245d085a690a79548977a1829369146468d042fcafb66a0",
+      "bytes": 9372
+    },
+    {
+      "path": "work/lecture1-color/engine/queue_after_plan.py",
+      "sha256": "b3cc12186ea2e9885ea9ee112d727bb2b4830f6a267eba7bca9451ff7f65a435",
+      "bytes": 2677
+    },
+    {
+      "path": "work/lecture1-color/engine/prepare_final_assembly_manifest.py",
+      "sha256": "dbf04362ae5f60c135758f019f8869054756eee9dfafb854befed82b2a368b99",
+      "bytes": 5692
+    },
+    {
+      "path": "work/lecture1-color/engine/prepare_final_selection.py",
+      "sha256": "1e33aed663bfb39a6047b4d2c5471f518439ee00d7df52e5b7bca08316f2f00b",
+      "bytes": 4861
+    },
+    {
+      "path": "work/lecture1-color/engine/publish_final_lecture.py",
+      "sha256": "cb06db0564e61046d5300d40dcd6d4eb5c33fb76cfbd0c5bf46e16fae9e49733",
+      "bytes": 6474
+    },
+    {
+      "path": "work/color-pilot/engine/run_pilot.py",
+      "sha256": "fff60048f0dac84ef201a7c8bdb8c86296adf0bce4e325d66e7ca0f0aab494ef",
+      "bytes": 10516
+    },
+    {
+      "path": "work/color-pilot/engine/spatial_correlation_sampler.py",
+      "sha256": "37d41d1404b5c07b8b1953b0a8da88f551e54ab8180b74fdc4f44434bfc9819c",
+      "bytes": 1462
+    },
+    {
+      "path": "work/color-pilot/engine/check_correlation.py",
+      "sha256": "b2ef4d07e05f71af747a3d922528dc81f6d3bb39e40ecf0e3aebd1acbe9866dd",
+      "bytes": 1484
+    },
+    {
+      "path": "work/lecture1-color/prepare_references.py",
+      "sha256": "d9e69a5f5a6fa3259008ea5da9d94fa6254f370508295158d74f40e1daefe32f",
+      "bytes": 5734
+    },
+    {
+      "path": "work/lecture1-color/scenes/qc/proposal_temporal_mask_trial.py",
+      "sha256": "f7246a3344c50dce32c549f5e6eef79a93942bdec11051fbeede3267b97715c2",
+      "bytes": 4995
+    }
+  ],
+  "lessons": [
+    "One OS GPU lock across every render and optional SAM trial; do not kill unrelated user applications.",
+    "Hash content, not incidental approval timestamps. Publish reference PNGs atomically before readiness markers. Bounded Windows replace retry handles antivirus/read-lock races.",
+    "Contiguous half-open global frame ranges and native batch clip caches prevent repeated decoding from frame zero; never impose the old 4320-frame pilot length on a lecture.",
+    "Merge original decoded Y with model UV at native geometry. Independently verify all Y frames, original decoded PCM through natural EOF, native cadence and immutable reuse YUV.",
+    "References must be shot-local and materials/view-compatible. Inspect actual source-Y recombined guides: visually plausible generated RGB can contain moved face/hand geometry.",
+    "Avoid artificial propagation breaks inside one pan/zoom; combine propagation, preserve canonical crop mapping.",
+    "Measure original source transition windows. Use actual per-frame fields from both scenes before source-alpha composition; held endpoint UV failed on moving towers, people and close faces.",
+    "Scientific-photo neutrality must apply to each scene hypothesis before dissolves, with source-aligned foreground/pointer exclusions and explicit outgoing handles. A screen polygon alone neutralizes the lecturer.",
+    "SAM temporal trials still need dense native source QA; shadows, pale cloth, fingers, pointers and camera cuts need bounded source-contour corrections.",
+    "Full source-UV scientific protection, actor exclusion and exact chroma-outside-support proof are separate gates from visual quality. Intermediate mask guarantees must not be misrepresented as final-composite guarantees.",
+    "Version every attempt and correction. Resume only exact-hash verified completed outputs; rejection receipts must prevent stale overrides from reentering selection.",
+    "Rolling cleanup may delete only exact obsolete work media after replacement proof and active-handle checks; retain provenance and a reserve plus measured allowance.",
+    "For daily ~10-minute batches, stop at a natural reviewed boundary, preflight geometry/references before GPU time, and resume from immutable completed attempts. Human/scoped QA remains a real workload."
+  ],
+  "abandoned_as_production_methods": [
+    "Held-endpoint dissolve UV for moving geometry",
+    "Blind six-frame transition windows without source inspection",
+    "Single fixed screen polygon without actor/shadow discrimination",
+    "Sparse long-step affine board tracking; broad convex actor hole fill",
+    "Raw SAM foreground automatically treated as truth",
+    "Global or rectangular hue replacement across unknown physical materials"
+  ]
+}

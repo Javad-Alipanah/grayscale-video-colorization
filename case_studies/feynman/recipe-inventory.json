@@ -1,0 +1,212 @@
+[
+  {
+    "source": "work/lecture1-color/scenes/census.py",
+    "snapshot": "recipes/scenes/census.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "acf6f5b8f0b330d8b7b3d4737ff0fdd154365ee704b1c99fac217acae3f45df9",
+    "snapshot_sha256": "acf6f5b8f0b330d8b7b3d4737ff0fdd154365ee704b1c99fac217acae3f45df9"
+  },
+  {
+    "source": "work/lecture1-color/scenes/audit_cuts.py",
+    "snapshot": "recipes/scenes/audit_cuts.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "8544bf45a43c04e74e9a3f07fc3cbdc91c5dc76fb0a5bef0d5abadd0bfbd0fbe",
+    "snapshot_sha256": "8544bf45a43c04e74e9a3f07fc3cbdc91c5dc76fb0a5bef0d5abadd0bfbd0fbe"
+  },
+  {
+    "source": "work/lecture1-color/scenes/supplement_cuts.py",
+    "snapshot": "recipes/scenes/supplement_cuts.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "6756e6669d89bc241c195a7d071cfcf9888e1f807339cde4082b829e32ff0a3b",
+    "snapshot_sha256": "6756e6669d89bc241c195a7d071cfcf9888e1f807339cde4082b829e32ff0a3b"
+  },
+  {
+    "source": "work/lecture1-color/scenes/verify_manifest.py",
+    "snapshot": "recipes/scenes/verify_manifest.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "e8bdf386e52988d83794c8caf3f98145693821366ffdf139bfeb83ab55f6fa3c",
+    "snapshot_sha256": "e8bdf386e52988d83794c8caf3f98145693821366ffdf139bfeb83ab55f6fa3c"
+  },
+  {
+    "source": "work/lecture1-color/scenes/qc/sample_native.py",
+    "snapshot": "recipes/scenes/qc/sample_native.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "90a343032a71cd90c0fc2cf1d3634a9c305894a1d70b657c757e985755267680",
+    "snapshot_sha256": "90a343032a71cd90c0fc2cf1d3634a9c305894a1d70b657c757e985755267680"
+  },
+  {
+    "source": "work/lecture1-color/scenes/qc/verify_merged_y.py",
+    "snapshot": "recipes/scenes/qc/verify_merged_y.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "c8f2f33bb5964f0dfd954728dfd76cc058e72bb35607db7c8c21f57449c250f4",
+    "snapshot_sha256": "c8f2f33bb5964f0dfd954728dfd76cc058e72bb35607db7c8c21f57449c250f4"
+  },
+  {
+    "source": "work/lecture1-color/scenes/qc/verify_batch_master.py",
+    "snapshot": "recipes/scenes/qc/verify_batch_master.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "46ddd90e058995696d2430d658afd053dc4f09d304063cce0534f82facf2b023",
+    "snapshot_sha256": "46ddd90e058995696d2430d658afd053dc4f09d304063cce0534f82facf2b023"
+  },
+  {
+    "source": "work/lecture1-color/scenes/qc/verify_immutable_pilot.py",
+    "snapshot": "recipes/scenes/qc/verify_immutable_pilot.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "e20cd2c418402d5ecf656835eb202d4c9bb27dbd58d87b9e099f9c9173fac4fe",
+    "snapshot_sha256": "e20cd2c418402d5ecf656835eb202d4c9bb27dbd58d87b9e099f9c9173fac4fe"
+  },
+  {
+    "source": "work/lecture1-color/scenes/qc/audit_dissolve_correction.py",
+    "snapshot": "recipes/scenes/qc/audit_dissolve_correction.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "4c3d7e64b8db981c724bcf37c957ca0279a166909e4f63ef498ad52221eaadd0",
+    "snapshot_sha256": "4c3d7e64b8db981c724bcf37c957ca0279a166909e4f63ef498ad52221eaadd0"
+  },
+  {
+    "source": "work/lecture1-color/scenes/qc/audit_board_zoom_sol.py",
+    "snapshot": "recipes/scenes/qc/audit_board_zoom_sol.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "d3e50349d7876f58e40babdea3001706d7ac872ea9bfca3fa796090989873acd",
+    "snapshot_sha256": "d3e50349d7876f58e40babdea3001706d7ac872ea9bfca3fa796090989873acd"
+  },
+  {
+    "source": "work/lecture1-color/scenes/qc/proposal_temporal_mask_trial.py",
+    "snapshot": "recipes/scenes/qc/proposal_temporal_mask_trial.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "f7246a3344c50dce32c549f5e6eef79a93942bdec11051fbeede3267b97715c2",
+    "snapshot_sha256": "f7246a3344c50dce32c549f5e6eef79a93942bdec11051fbeede3267b97715c2"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_zoom_material_trial/zoom_material.py",
+    "snapshot": "recipes/engine/board_zoom_material_trial/zoom_material.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "2a896fc52cc1a92ed86646110ad59086ca756d8fb3dfe698a547804e6da64bcd",
+    "snapshot_sha256": "2a896fc52cc1a92ed86646110ad59086ca756d8fb3dfe698a547804e6da64bcd"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_zoom_material_trial/render_zoom_trial.py",
+    "snapshot": "recipes/engine/board_zoom_material_trial/render_zoom_trial.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "98e861978e007faaadf7eac5a13169ab9f9b06935a1ec2a014d2339691b1768b",
+    "snapshot_sha256": "98e861978e007faaadf7eac5a13169ab9f9b06935a1ec2a014d2339691b1768b"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_zoom_material_trial/prepare_combined_foreground.py",
+    "snapshot": "recipes/engine/board_zoom_material_trial/prepare_combined_foreground.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "ec868c44a1963c651a65dee4cfff5c15fba5dc347937e06ae7e9716d6c92162f",
+    "snapshot_sha256": "ec868c44a1963c651a65dee4cfff5c15fba5dc347937e06ae7e9716d6c92162f"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_zoom_material_trial/prepare_temporal_review.py",
+    "snapshot": "recipes/engine/board_zoom_material_trial/prepare_temporal_review.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "a5e3fe7f1945a26fb85129500f5eea97c01f31cc99c6ec2ab4e1d9e3710bd6ae",
+    "snapshot_sha256": "a5e3fe7f1945a26fb85129500f5eea97c01f31cc99c6ec2ab4e1d9e3710bd6ae"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_zoom_material_trial/physical_geometry_worker/prepare_source_strips.py",
+    "snapshot": "recipes/engine/board_zoom_material_trial/physical_geometry_worker/prepare_source_strips.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "7c0cb6df90602bd80f573fbf6bc8868e4e3bd66affc22b2ad93ad4164b8df74d",
+    "snapshot_sha256": "7c0cb6df90602bd80f573fbf6bc8868e4e3bd66affc22b2ad93ad4164b8df74d"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_zoom_material_trial/physical_geometry_worker/prepare_source_edges_v07.py",
+    "snapshot": "recipes/engine/board_zoom_material_trial/physical_geometry_worker/prepare_source_edges_v07.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "7c4405dc4dba2f4657b38c700a60795db5562b35ac83d27348a885b562cf96c3",
+    "snapshot_sha256": "7c4405dc4dba2f4657b38c700a60795db5562b35ac83d27348a885b562cf96c3"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_zoom_material_trial/physical_geometry_worker/prepare_source_viewport_v06.py",
+    "snapshot": "recipes/engine/board_zoom_material_trial/physical_geometry_worker/prepare_source_viewport_v06.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "38599fd59be7e84e49ed7d7f39f6da024cdac19159316ece38bc0077423af1b2",
+    "snapshot_sha256": "38599fd59be7e84e49ed7d7f39f6da024cdac19159316ece38bc0077423af1b2"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_material_trial/render_full_trial.py",
+    "snapshot": "recipes/engine/board_material_trial/render_full_trial.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "ddd4e424468e462d468c0f6837885b7fa6c70e9b73aaa02d658e55c4749a48c2",
+    "snapshot_sha256": "ddd4e424468e462d468c0f6837885b7fa6c70e9b73aaa02d658e55c4749a48c2"
+  },
+  {
+    "source": "work/lecture1-color/engine/board_material_trial/compose_reviewed_back_candidate.py",
+    "snapshot": "recipes/engine/board_material_trial/compose_reviewed_back_candidate.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "d6229d04ce79a7738079ebed5e561f719655f506381e782f862b09e86499d34a",
+    "snapshot_sha256": "d6229d04ce79a7738079ebed5e561f719655f506381e782f862b09e86499d34a"
+  },
+  {
+    "source": "work/lecture1-color/engine/podium_material_trial/render_temporal_candidates.py",
+    "snapshot": "recipes/engine/podium_material_trial/render_temporal_candidates.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "f435f0bb50ed3c3ba73f6d520922367ef9657d4baedc96905ee852e114a4c449",
+    "snapshot_sha256": "f435f0bb50ed3c3ba73f6d520922367ef9657d4baedc96905ee852e114a4c449"
+  },
+  {
+    "source": "work/lecture1-color/engine/podium_material_trial/measure_reference_palette.py",
+    "snapshot": "recipes/engine/podium_material_trial/measure_reference_palette.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "7fbdefe9919687292250f731219977495d50939ba0d91541d0388c5b4b0d9159",
+    "snapshot_sha256": "7fbdefe9919687292250f731219977495d50939ba0d91541d0388c5b4b0d9159"
+  },
+  {
+    "source": "work/lecture1-color/engine/coat_fringe_trial/render_expanded_candidate.py",
+    "snapshot": "recipes/engine/coat_fringe_trial/render_expanded_candidate.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "b7dc17fcfccd95c54a7517bab64b70dd695c440c2f495e7510ac974320f0cd08",
+    "snapshot_sha256": "b7dc17fcfccd95c54a7517bab64b70dd695c440c2f495e7510ac974320f0cd08"
+  },
+  {
+    "source": "work/lecture1-color/engine/compose_ready_science.py",
+    "snapshot": "recipes/engine/compose_ready_science.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "fb65a18163689072c0de6b3fbe3d79d85967075e50f4a266a8fdae57133e8e1c",
+    "snapshot_sha256": "fb65a18163689072c0de6b3fbe3d79d85967075e50f4a266a8fdae57133e8e1c"
+  },
+  {
+    "source": "work/lecture1-color/engine/run_joint_galaxy_trial.py",
+    "snapshot": "recipes/engine/run_joint_galaxy_trial.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "85618a6a31b3c1f56300e60aa9400967d11c1d54ea99b0ab2a353519815d52f2",
+    "snapshot_sha256": "85618a6a31b3c1f56300e60aa9400967d11c1d54ea99b0ab2a353519815d52f2"
+  },
+  {
+    "source": "work/lecture1-color/engine/prepare_batch5_joint_trial.py",
+    "snapshot": "recipes/engine/prepare_batch5_joint_trial.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "7a708932378c4489ed7beb57286d0625788954f288b520bfa5fc7c0e568b8c22",
+    "snapshot_sha256": "7a708932378c4489ed7beb57286d0625788954f288b520bfa5fc7c0e568b8c22"
+  },
+  {
+    "source": "work/lecture1-color/engine/render_crest_trial.py",
+    "snapshot": "recipes/engine/render_crest_trial.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "5af7f77518ddc8ec04abd9e06f52a80e69a2668624dad793bcd133a65f1b4c78",
+    "snapshot_sha256": "5af7f77518ddc8ec04abd9e06f52a80e69a2668624dad793bcd133a65f1b4c78"
+  },
+  {
+    "source": "work/lecture1-color/engine/podium_material_trial/prepare_comparison.py",
+    "snapshot": "recipes/engine/podium_material_trial/prepare_comparison.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "ebb2a73e904b28e72becf9b98af1f0a2213497135ff71458e7b4405144daf99c",
+    "snapshot_sha256": "ebb2a73e904b28e72becf9b98af1f0a2213497135ff71458e7b4405144daf99c"
+  },
+  {
+    "source": "work/lecture1-color/engine/podium_material_trial/prepare_entry_comparison.py",
+    "snapshot": "recipes/engine/podium_material_trial/prepare_entry_comparison.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "57a0cdec36290d76ebc24ccdf715b72f9ec1cde7bfc87730f5a14c3159fd7253",
+    "snapshot_sha256": "57a0cdec36290d76ebc24ccdf715b72f9ec1cde7bfc87730f5a14c3159fd7253"
+  },
+  {
+    "source": "work/lecture1-color/engine/coat_fringe_trial/prepare_comparison.py",
+    "snapshot": "recipes/engine/coat_fringe_trial/prepare_comparison.py",
+    "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
+    "source_sha256": "d2c72cc612d7ba9a65d9fb282c5e8c458792f4131ad7068d2fff17efeb4b213e",
+    "snapshot_sha256": "d2c72cc612d7ba9a65d9fb282c5e8c458792f4131ad7068d2fff17efeb4b213e"
+  }
+]

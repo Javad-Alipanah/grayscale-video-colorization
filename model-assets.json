@@ -1,0 +1,38 @@
+{
+  "repository": "https://github.com/dan64/cmnet2",
+  "commit": "e0d51432d224476769babfbff5e90f531a454939",
+  "files": [
+    {
+      "path": "weights/DINOv3FeatureV6_LocalAtten_p374099.pth",
+      "bytes": 758716232,
+      "sha256": "ccb635feeba003b63e9aa7d226e7de09ff0da3824f2b6709cc1b1aa163cad312",
+      "url": "https://github.com/dan64/cmnet2/releases/download/v1.3.0/DINOv3FeatureV6_LocalAtten_p374099.pth"
+    },
+    {
+      "path": "weights/dinov3-vitb16/config.json",
+      "bytes": 1123,
+      "sha256": "a8d586d103a6be83d474824fcb31de440767d1586ba087e3fd956a144414b660",
+      "url": "https://github.com/dan64/cmnet2/releases/download/v1.1.0/dinov3-vitb16.zip",
+      "archive_member_basename": "config.json"
+    },
+    {
+      "path": "weights/dinov3-vitb16/model.safetensors",
+      "bytes": 342662192,
+      "sha256": "9a21ac3df0c63839d62612dda6f454d816c25611cc7a52966ed5a5a94921dc8b",
+      "url": "https://github.com/dan64/cmnet2/releases/download/v1.1.0/dinov3-vitb16.zip",
+      "archive_member_basename": "model.safetensors"
+    },
+    {
+      "path": "models/checkpoints/resnet18-5c106cde.pth",
+      "bytes": 46827520,
+      "sha256": "5c106cde386e87d4033832f2996f5493238eda96ccf559d1d62760c4de0613f8",
+      "url": "https://github.com/dan64/cmnet2/releases/download/v1.0.0/resnet18-5c106cde.pth"
+    },
+    {
+      "path": "models/checkpoints/resnet50-19c8e357.pth",
+      "bytes": 102502400,
+      "sha256": "19c8e3572231adff6824a2da93fd67b5986919a2e65f8b6007eab4edee220097",
+      "url": "https://github.com/dan64/cmnet2/releases/download/v1.0.0/resnet50-19c8e357.pth"
+    }
+  ]
+}

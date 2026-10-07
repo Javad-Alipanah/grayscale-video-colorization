@@ -1,0 +1,8 @@
+{
+  "creator": "Javad Alipanah project",
+  "license": "MIT",
+  "kind": "algorithmic geometric fixtures; no third-party footage",
+  "note": "Illustrates concepts only. Not CMNET2 output or Feynman colorization quality evidence.",
+  "generator": "scripts/make_synthetic_examples.py",
+  "native_y_note": "The internal Y array is shared. Display RGB conversions/clipping are not byte-exact Y proof."
+}

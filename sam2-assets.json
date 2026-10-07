@@ -1,0 +1,32 @@
+{
+  "repository": "facebook/sam2.1-hiera-tiny",
+  "revision": "de431c4043854a71d8101e17995dfe596bf101a5",
+  "license": "Apache-2.0 per official model card",
+  "tested_transformers": "4.57.6",
+  "files": [
+    {
+      "path": "config.json",
+      "bytes": 5695,
+      "sha256": "860aff9751b139d83a4ad7df1e5535416fded533e0ead02625edbefcb9953cce",
+      "url": "https://huggingface.co/facebook/sam2.1-hiera-tiny/resolve/de431c4043854a71d8101e17995dfe596bf101a5/config.json"
+    },
+    {
+      "path": "model.safetensors",
+      "bytes": 155908064,
+      "sha256": "48c14467e5cf9e51870511feb72c89688e82dd74523142c0538b663e193ac2a7",
+      "url": "https://huggingface.co/facebook/sam2.1-hiera-tiny/resolve/de431c4043854a71d8101e17995dfe596bf101a5/model.safetensors"
+    },
+    {
+      "path": "preprocessor_config.json",
+      "bytes": 683,
+      "sha256": "6ebf229ee259368ce4a8d4f2fe893a72b053023710853e257253939e601f583d",
+      "url": "https://huggingface.co/facebook/sam2.1-hiera-tiny/resolve/de431c4043854a71d8101e17995dfe596bf101a5/preprocessor_config.json"
+    },
+    {
+      "path": "processor_config.json",
+      "bytes": 95,
+      "sha256": "f8a68e865cfad115c1c2763f3d93eca7b1c622da06da2a9273eb437fb2389b6d",
+      "url": "https://huggingface.co/facebook/sam2.1-hiera-tiny/resolve/de431c4043854a71d8101e17995dfe596bf101a5/processor_config.json"
+    }
+  ]
+}

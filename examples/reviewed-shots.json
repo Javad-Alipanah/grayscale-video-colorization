@@ -1,0 +1,11 @@
+{
+  "status": "reviewed",
+  "reviewed_by": "synthetic-example-generator",
+  "reviewed_at": "2026-10-07",
+  "note": "Synthetic 60-second/24fps schema example only; not a Feynman scene census.",
+  "shots": [
+    {"id": "shot_000000", "start_frame": 0, "end_frame": 240, "mode": "passthrough"},
+    {"id": "shot_000240", "start_frame": 240, "end_frame": 720, "mode": "colorize"},
+    {"id": "shot_000720", "start_frame": 720, "end_frame": 1440, "mode": "colorize"}
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "source_sha256": "37937a5485485f69edd209a84fde0f5522d1db085b540f2ff16b8a7aeceb1033",
+  "frame_count": 80026,
+  "width": 960,
+  "height": 720,
+  "fps": "24000/1001",
+  "batch_target_seconds": 600,
+  "reference_package_counts": [
+    43,
+    33,
+    50,
+    49,
+    36,
+    25
+  ],
+  "source_url": "https://www.feynmanlectures.caltech.edu/messenger.html",
+  "private_media_required": true,
+  "shots": [
+    {
+      "id": "shot_000000",
+      "start_frame": 0,
+      "end_frame": 850,
+      "mode": "passthrough",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_000850",
+      "start_frame": 850,
+      "end_frame": 1200,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_001200",
+      "start_frame": 1200,
+      "end_frame": 1479,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_001479",
+      "start_frame": 1479,
+      "end_frame": 1584,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_001584",
+      "start_frame": 1584,
+      "end_frame": 1833,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_001833",
+      "start_frame": 1833,
+      "end_frame": 2127,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_002127",
+      "start_frame": 2127,
+      "end_frame": 2245,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_002245",
+      "start_frame": 2245,
+      "end_frame": 2456,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_002456",
+      "start_frame": 2456,
+      "end_frame": 4048,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_004048",
+      "start_frame": 4048,
+      "end_frame": 4176,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_004176",
+      "start_frame": 4176,
+      "end_frame": 5281,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_005281",
+      "start_frame": 5281,
+      "end_frame": 6863,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_006863",
+      "start_frame": 6863,
+      "end_frame": 8788,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_008788",
+      "start_frame": 8788,
+      "end_frame": 8965,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_008965",
+      "start_frame": 8965,
+      "end_frame": 9808,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_009808",
+      "start_frame": 9808,
+      "end_frame": 10006,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_010006",
+      "start_frame": 10006,
+      "end_frame": 12405,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_012405",
+      "start_frame": 12405,
+      "end_frame": 13654,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_013654",
+      "start_frame": 13654,
+      "end_frame": 15017,
+      "mode": "colorize",
+      "batch_id": "batch_01"
+    },
+    {
+      "id": "shot_015017",
+      "start_frame": 15017,
+      "end_frame": 15470,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_015470",
+      "start_frame": 15470,
+      "end_frame": 16190,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_016190",
+      "start_frame": 16190,
+      "end_frame": 17157,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_017157",
+      "start_frame": 17157,
+      "end_frame": 17430,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_017430",
+      "start_frame": 17430,
+      "end_frame": 18978,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_018978",
+      "start_frame": 18978,
+      "end_frame": 20538,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_020538",
+      "start_frame": 20538,
+      "end_frame": 21535,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_021535",
+      "start_frame": 21535,
+      "end_frame": 21579,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_021579",
+      "start_frame": 21579,
+      "end_frame": 25899,
+      "mode": "reusable_approved_master",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_025899",
+      "start_frame": 25899,
+      "end_frame": 26013,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_026013",
+      "start_frame": 26013,
+      "end_frame": 26165,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_026165",
+      "start_frame": 26165,
+      "end_frame": 28464,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_028464",
+      "start_frame": 28464,
+      "end_frame": 29491,
+      "mode": "colorize",
+      "batch_id": "batch_02"
+    },
+    {
+      "id": "shot_029491",
+      "start_frame": 29491,
+      "end_frame": 30577,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_030577",
+      "start_frame": 30577,
+      "end_frame": 30752,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_030752",
+      "start_frame": 30752,
+      "end_frame": 31335,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_031335",
+      "start_frame": 31335,
+      "end_frame": 32320,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_032320",
+      "start_frame": 32320,
+      "end_frame": 32440,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_032440",
+      "start_frame": 32440,
+      "end_frame": 32912,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_032912",
+      "start_frame": 32912,
+      "end_frame": 34677,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_034677",
+      "start_frame": 34677,
+      "end_frame": 37179,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_037179",
+      "start_frame": 37179,
+      "end_frame": 37314,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_037314",
+      "start_frame": 37314,
+      "end_frame": 37590,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_037590",
+      "start_frame": 37590,
+      "end_frame": 37879,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_037879",
+      "start_frame": 37879,
+      "end_frame": 38012,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_038012",
+      "start_frame": 38012,
+      "end_frame": 38354,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_038354",
+      "start_frame": 38354,
+      "end_frame": 39779,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_039779",
+      "start_frame": 39779,
+      "end_frame": 40852,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_040852",
+      "start_frame": 40852,
+      "end_frame": 42657,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_042657",
+      "start_frame": 42657,
+      "end_frame": 42874,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_042874",
+      "start_frame": 42874,
+      "end_frame": 43769,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_043769",
+      "start_frame": 43769,
+      "end_frame": 44327,
+      "mode": "colorize",
+      "batch_id": "batch_03"
+    },
+    {
+      "id": "shot_044327",
+      "start_frame": 44327,
+      "end_frame": 44716,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_044716",
+      "start_frame": 44716,
+      "end_frame": 44815,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_044815",
+      "start_frame": 44815,
+      "end_frame": 45003,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_045003",
+      "start_frame": 45003,
+      "end_frame": 46016,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_046016",
+      "start_frame": 46016,
+      "end_frame": 46225,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_046225",
+      "start_frame": 46225,
+      "end_frame": 46533,
+      "mode": "passthrough",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_046533",
+      "start_frame": 46533,
+      "end_frame": 47237,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_047237",
+      "start_frame": 47237,
+      "end_frame": 47517,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_047517",
+      "start_frame": 47517,
+      "end_frame": 47544,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_047544",
+      "start_frame": 47544,
+      "end_frame": 48028,
+      "mode": "passthrough",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_048028",
+      "start_frame": 48028,
+      "end_frame": 48879,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_048879",
+      "start_frame": 48879,
+      "end_frame": 48997,
+      "mode": "passthrough",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_048997",
+      "start_frame": 48997,
+      "end_frame": 49133,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_049133",
+      "start_frame": 49133,
+      "end_frame": 50225,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_050225",
+      "start_frame": 50225,
+      "end_frame": 50444,
+      "mode": "passthrough",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_050444",
+      "start_frame": 50444,
+      "end_frame": 50673,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_050673",
+      "start_frame": 50673,
+      "end_frame": 51066,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_051066",
+      "start_frame": 51066,
+      "end_frame": 51364,
+      "mode": "passthrough",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_051364",
+      "start_frame": 51364,
+      "end_frame": 52259,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_052259",
+      "start_frame": 52259,
+      "end_frame": 52549,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_052549",
+      "start_frame": 52549,
+      "end_frame": 55118,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_055118",
+      "start_frame": 55118,
+      "end_frame": 55259,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_055259",
+      "start_frame": 55259,
+      "end_frame": 55847,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_055847",
+      "start_frame": 55847,
+      "end_frame": 56062,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_056062",
+      "start_frame": 56062,
+      "end_frame": 56356,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_056356",
+      "start_frame": 56356,
+      "end_frame": 58480,
+      "mode": "colorize",
+      "batch_id": "batch_04"
+    },
+    {
+      "id": "shot_058480",
+      "start_frame": 58480,
+      "end_frame": 58900,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_058900",
+      "start_frame": 58900,
+      "end_frame": 59059,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_059059",
+      "start_frame": 59059,
+      "end_frame": 59176,
+      "mode": "passthrough",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_059176",
+      "start_frame": 59176,
+      "end_frame": 59637,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_059637",
+      "start_frame": 59637,
+      "end_frame": 59849,
+      "mode": "passthrough",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_059849",
+      "start_frame": 59849,
+      "end_frame": 61180,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_061180",
+      "start_frame": 61180,
+      "end_frame": 61469,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_061469",
+      "start_frame": 61469,
+      "end_frame": 62563,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_062563",
+      "start_frame": 62563,
+      "end_frame": 64277,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_064277",
+      "start_frame": 64277,
+      "end_frame": 67509,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_067509",
+      "start_frame": 67509,
+      "end_frame": 68982,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_068982",
+      "start_frame": 68982,
+      "end_frame": 69459,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_069459",
+      "start_frame": 69459,
+      "end_frame": 69563,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_069563",
+      "start_frame": 69563,
+      "end_frame": 69748,
+      "mode": "passthrough",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_069748",
+      "start_frame": 69748,
+      "end_frame": 69913,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_069913",
+      "start_frame": 69913,
+      "end_frame": 70072,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_070072",
+      "start_frame": 70072,
+      "end_frame": 71783,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_071783",
+      "start_frame": 71783,
+      "end_frame": 72079,
+      "mode": "colorize",
+      "batch_id": "batch_05"
+    },
+    {
+      "id": "shot_072079",
+      "start_frame": 72079,
+      "end_frame": 73032,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_073032",
+      "start_frame": 73032,
+      "end_frame": 73678,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_073678",
+      "start_frame": 73678,
+      "end_frame": 74465,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_074465",
+      "start_frame": 74465,
+      "end_frame": 77632,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_077632",
+      "start_frame": 77632,
+      "end_frame": 77935,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_077935",
+      "start_frame": 77935,
+      "end_frame": 78053,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_078053",
+      "start_frame": 78053,
+      "end_frame": 78368,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_078368",
+      "start_frame": 78368,
+      "end_frame": 78641,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_078641",
+      "start_frame": 78641,
+      "end_frame": 79212,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_079212",
+      "start_frame": 79212,
+      "end_frame": 79665,
+      "mode": "colorize",
+      "batch_id": "batch_06"
+    },
+    {
+      "id": "shot_079665",
+      "start_frame": 79665,
+      "end_frame": 80026,
+      "mode": "passthrough",
+      "batch_id": "batch_06"
+    }
+  ]
+}

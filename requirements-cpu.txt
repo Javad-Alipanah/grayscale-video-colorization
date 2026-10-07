@@ -1,0 +1,4 @@
+# Core/regression dependencies; no model download or CUDA installation.
+numpy==2.5.2
+pillow==12.3.0
+opencv-python==5.0.0.93
