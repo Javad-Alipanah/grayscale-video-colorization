@@ -60,7 +60,8 @@ class PreservationTests(unittest.TestCase):
         source = self.base/'aac_source.mkv'
         master = self.base/'aac_decoded_master.mkv'
         self.runff('-i', str(self.source), '-c:v', 'copy', '-c:a', 'aac', '-avoid_negative_ts', 'disabled', str(source))
-        self.runff('-copyts', '-i', str(source), '-c:v', 'copy', '-c:a', 'pcm_f32le', str(master))
+        self.runff('-copyts', '-i', str(source), '-c:v', 'copy', '-c:a', 'pcm_f32le',
+                   '-avoid_negative_ts', 'disabled', str(master))
         result = v.verify(source, master, FF, FP)
         self.assertIn('codec priming honored', result['original_audio']['policy'])
 

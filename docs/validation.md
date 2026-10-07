@@ -49,6 +49,15 @@ passthrough shots, so it tests orchestration and preservation without claiming
 neural color quality. It keeps final visual acceptance pending. Its replayable
 script is included and runs in CI.
 
+A separate bounded GPU smoke used the portable colorize path on 24 synthetic
+256×192 frames with the installed CMNET2/DINOv3 assets and unchanged production
+settings. Prediction decoded completely; the merged master independently
+preserved every source Y byte and all decoded PCM. Maximum video timestamp
+rounding was 1/3000 second within the explicitly declared 1 ms allowance.
+Peak PyTorch allocation was about 850 MiB. A neutral source-extracted reference
+was used, so this checks GPU execution and preservation, not palette quality.
+Its batch remains pending visual review; it is not a second lecture render.
+
 Run locally, with FFmpeg and ffprobe on PATH (or their documented environment
 overrides):
 

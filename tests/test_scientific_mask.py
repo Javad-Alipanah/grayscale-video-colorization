@@ -19,15 +19,15 @@ class ScientificMaskTests(TestCase):
     def test_analytic_photo_exit_uses_each_original_uv_frame_and_refuses_partial_mask(self):
         import apply_neutral_photo_exit as photo
         with tempfile.TemporaryDirectory(dir=p.HERE) as temporary:
-            root=Path(temporary);pixels=8
+            root=Path(temporary);pixels=256
             def encode(name,frames,fmt):
                 path=root/(name+'.mkv')
-                subprocess.run([str(p.FFMPEG),'-v','error','-y','-f','rawvideo','-pix_fmt',fmt,'-s','4x2','-framerate','24',
+                subprocess.run([str(p.FFMPEG),'-v','error','-y','-f','rawvideo','-pix_fmt',fmt,'-s','16x16','-framerate','24',
                     '-i','pipe:0','-an','-c:v','ffv1','-level','3',str(path)],input=b''.join(frames),check=True)
                 return path
             frames=[bytes([40+i]*pixels+[112+i]*pixels+[140-i]*pixels) for i in range(5)]
             source=encode('source',frames,'yuv444p');mask=encode('mask',[bytes([255]*pixels)]*5,'gray')
-            meta=dict(width=4,height=2,fps_num=24,fps_den=1)
+            meta=dict(width=16,height=16,fps_num=24,fps_den=1)
             scene=dict(id='photo',start_frame=20,end_frame=21,frames=1)
             transition=dict(support_start_frame=21,support_end_frame_exclusive=24)
             identity=dict(sha256='native-source');clip=dict(path=str(source),sha256=p.sha256(source),source_sha256='native-source',source_clip_start_frame=20,source_clip_end_frame=25)
@@ -37,7 +37,7 @@ class ScientificMaskTests(TestCase):
                 raw=subprocess.check_output([str(p.FFMPEG),'-v','error','-i',result['output'],'-f','rawvideo','-pix_fmt','yuv444p','pipe:1'])
                 self.assertEqual(raw,b''.join(frames[1:4]))
                 self.assertTrue(result['exact_original_source_uv'])
-                bad=encode('partial_mask',[bytes([0]+[255]*7)]*5,'gray')
+                bad=encode('partial_mask',[bytes([0]+[255]*(pixels-1))]*5,'gray')
                 config.update(path=bad,content_digest='partial_photo');config['record']['mask_sha256']=p.sha256(bad)
                 with self.assertRaisesRegex(ValueError,'unmasked pixels'):
                     photo.source_uv_handle(dict(source=meta),scene,transition,dict(source_clip=clip),identity)
@@ -72,19 +72,19 @@ class ScientificMaskTests(TestCase):
 
     def test_real_lossless_mask_uses_global_positions_and_preserves_foreground(self):
         with tempfile.TemporaryDirectory(dir=p.HERE) as temporary:
-            root=Path(temporary);pixels=8
+            root=Path(temporary);pixels=256
             def encode(name,frames,pix_fmt):
                 path=root/(name+'.mkv')
-                subprocess.run([str(p.FFMPEG),'-v','error','-y','-f','rawvideo','-pix_fmt',pix_fmt,'-s','4x2','-framerate','24',
+                subprocess.run([str(p.FFMPEG),'-v','error','-y','-f','rawvideo','-pix_fmt',pix_fmt,'-s','16x16','-framerate','24',
                     '-i','pipe:0','-an','-c:v','ffv1','-level','3',str(path)],input=b''.join(frames),check=True)
                 return path
             source_frames=[bytes([30+i]*pixels+[120+i]*pixels+[135+i]*pixels) for i in range(5)]
             source=encode('source',source_frames,'yuv444p')
             base_frames=[source_frames[i][:pixels]+bytes([80]*pixels+[190]*pixels) for i in range(1,4)]
             base_path=encode('base',base_frames,'yuv444p')
-            mattes=[bytes([0]*pixels),bytes([255,0,0,0,255,0,0,0]),bytes([0,255,0,0,0,0,255,0]),bytes([255]*pixels),bytes([0]*pixels)]
+            mattes=[bytes([0]*pixels),bytes([255,0,0,0,255,0,0,0])*32,bytes([0,255,0,0,0,0,255,0])*32,bytes([255]*pixels),bytes([0]*pixels)]
             mask=encode('mask',mattes,'gray');marker=root/'mask_ready.json'
-            source_meta=dict(width=4,height=2,fps_num=24,fps_den=1)
+            source_meta=dict(width=16,height=16,fps_num=24,fps_den=1)
             p.atomic_json(marker,dict(schema_version=1,status='source_mask_trial_ready',scene_id='photo',source_sha256='source',
                 **source_meta,start_frame=10,end_frame=15,mask_path=str(mask),mask_sha256=p.sha256(mask),pixel_format='gray',foreground_exclusions_included=True))
             shot=dict(id='overlap_photo',mode='colorize',start_frame=11,end_frame=14,frames=3,
@@ -103,10 +103,10 @@ class ScientificMaskTests(TestCase):
                 self.assertEqual(rebuilt['decoded_yuv_sha256'],result['decoded_yuv_sha256'])
             raw=subprocess.check_output([str(p.FFMPEG),'-v','error','-i',result['output'],'-f','rawvideo','-pix_fmt','yuv444p','pipe:1'])
             for local in range(3):
-                frame=raw[local*24:(local+1)*24];original=source_frames[local+1];before=base_frames[local];matte=mattes[local+1]
-                self.assertEqual(frame[:8],original[:8])
-                for pixel in range(8):
-                    for offset in (8,16):self.assertEqual(frame[offset+pixel],original[offset+pixel] if matte[pixel] else before[offset+pixel])
+                frame=raw[local*3*pixels:(local+1)*3*pixels];original=source_frames[local+1];before=base_frames[local];matte=mattes[local+1]
+                self.assertEqual(frame[:pixels],original[:pixels])
+                for pixel in range(pixels):
+                    for offset in (pixels,2*pixels):self.assertEqual(frame[offset+pixel],original[offset+pixel] if matte[pixel] else before[offset+pixel])
             self.assertEqual(result['full_source_uv_passthrough_frames_global'],[13])
             self.assertTrue(result['exact_source_y']);self.assertTrue(result['exact_source_uv_inside_mask']);self.assertTrue(result['exact_prediction_uv_outside_mask'])
 
