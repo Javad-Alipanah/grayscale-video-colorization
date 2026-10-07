@@ -208,5 +208,12 @@
     "status": "case_specific_recipe_requires_adaptation_and_private_inputs",
     "source_sha256": "d2c72cc612d7ba9a65d9fb282c5e8c458792f4131ad7068d2fff17efeb4b213e",
     "snapshot_sha256": "d2c72cc612d7ba9a65d9fb282c5e8c458792f4131ad7068d2fff17efeb4b213e"
+  },
+  {
+    "source": "work/lecture1-upload-qa/verify_upload.py",
+    "snapshot": "recipes/upload/verify_prores_upload.py",
+    "status": "case_specific_recipe_requires_adaptation_and_new_source_verification",
+    "source_sha256": "d9c84342328d959f0adb8c1b05ecbe51a902c8f6507a20a59f18ed0227391a46",
+    "snapshot_sha256": "260fc6c516827817c7eb76eb791b9dcbbcaef9f19d7b0c0c7c3654ed38843c99"
   }
 ]

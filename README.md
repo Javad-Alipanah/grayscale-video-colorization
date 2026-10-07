@@ -37,6 +37,8 @@ The [reference protocol](docs/reference-protocol.md) explains guide publication
 and the separate shot/batch review records required before continuing.
 The [scientific-mask guide](docs/scientific-masks.md) covers protected diagrams
 and moving foregrounds.
+The [ProRes upload recipe](docs/upload-export.md) covers a separately verified
+MOV export from the lossless master.
 
 ## Included
 

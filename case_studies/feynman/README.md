@@ -30,6 +30,7 @@ not a turnkey reconstruction without the private source, guides and masks.
 | `board_zoom_material_trial/` | Physical board boundaries, conservative actor guards and per-frame chroma support |
 | `board_material_trial/` | Source-bound board correction with reviewed back-edge exceptions |
 | `podium_material_trial/`, `coat_fringe_trial/` | Narrow source-derived material correction rather than global hue replacement |
+| `upload/verify_prores_upload.py` | Source-bound full ProRes decode, native cadence, EOF PCM and finite compression comparison; requires adaptation and new source verification |
 
 Optional SAM 2 trial code requires its separately installed compatible model and
 transformers support. The default CMNET2 runtime is not advertised as a complete
